@@ -17,9 +17,9 @@ from google.colab import drive
 drive.mount('/content/drive')
 
 # Step 1: Set up Reddit API credentials
-reddit = praw.Reddit(client_id='g1B_Pdsfwszzw5xbUf3i3g',
-                     client_secret='kZWNzy2Jje3gT32CHJrtf8p1Xdczow',
-                     user_agent='test-script/1.0 by ak-gom')
+reddit = praw.Reddit(client_id='',
+                     client_secret='',
+                     user_agent='')
 
 # Step 2: Specify the keywords
 keywords = ['healthcare', 'climate change', 'gun control']  # Add more specific keywords if necessary
